@@ -1,4 +1,4 @@
-#Este e s un programa de ejemplo en Python.
+#Este es un programa de ejemplo en Python.
 #Para ejecutar una parte de este programa, deberás comentar las secciones que no probarás.
 
 #Variables y tipos de datos.
@@ -14,18 +14,19 @@ varible_booleana = True #Valor booleano
 #sumar variable_entera y variable_decimal, y comparacion
 #almacena el resultado de comparar si variable_entera es
 #mayor que variable_decimal.
-resultado_suma = varible_entera + variable_decimalcomparacion = (variable_entera > variable_decimal)
+resultado_suma = varible_entera + variable_decimal
+comparacion = (variable_entera > variable_decimal)
 
 #Entrada y Salida
 nombre_usuario = input("Por favor, ingresa tu nombre:")
 print("Hola,"+nombre_usuario+"¡Este es tu primer programa en Python!.")
 
-#Estructuras de controol de decisiones
+#Estructuras de control de decisiones
 #Se utiliza una estructura if-elif-else para tomar decisiones basadas en condiciones
 if varible_booleana :
     print("La variable booleana es verdadera.")
 elif resultado_suma < 10:
-    print("La suma e smenor que 10")
+    print("La suma es menor que 10")
 else:
     print("Ninguna de las condiciones anteriores se cumple")
     
@@ -37,12 +38,12 @@ else:
     conjunto_elementos = {1,2,3,4,5}
     
     #Funciones
-    #Se defines una función saludar() y se la utiliza para crear un
+    #Se define una función saludar() y se la utiliza para crear un
     #mensaje de saludo personalizado
     def saludar(nombre):
-        return "Hola," +nombre+"!"
+        return "Hola," + nombre + "!"
     
-    mensaje_saludo = saludar ("Estudiante")
+    mensaje_saludo = saludar("Estudiante")
     
     #Manejo de errores
     try:
@@ -58,7 +59,7 @@ else:
             
             #Módulos y bibliotecas
             import math
-            mathraiz_cuadrada = math.sqrt(16)
+            raiz_cuadrada = math.sqrt(16)
             
             #Porgramación orientada a objetos
             class MiClase:
